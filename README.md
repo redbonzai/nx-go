@@ -64,6 +64,7 @@ nx g @nx-go/nx-go:convert-to-one-mod
 - `lint`: [Format and lint a Go project](./docs/executors/lint.md)
 - `serve`: [Run a Go application](./docs/executors/serve.md)
 - `test`: [Run tests of a Go project](./docs/executors/test.md)
+- `tidy`: [Ensures go.mod file matches a project source code](./docs/executors/tidy.md)
 
 > [!TIP]
 > You can use `nx list @nx-go/nx-go` to see list capabilities.
@@ -74,7 +75,7 @@ Want to try out these capabilities quickly? Visit our [playground](https://githu
 
 | nx-go version | Nx version   |
 |---------------|--------------|
-| 3.x           | 17.x, 18.x   |
+| 3.x           | 17.x to 19.x |
 | 2.x           | 13.x to 16.x |
 | 1.x           | < 13.x       |
 
